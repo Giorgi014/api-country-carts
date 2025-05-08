@@ -37,29 +37,29 @@ const creatCart = (info) => {
         <p class="capital">Capital: <span class="capital_name">${info.capital.toLocaleString()}</span></p>
     </div>`
 
-  const flagImg = document.createElement("img");
-  flagImg.classList.add("flag");
+  // const flagImg = document.createElement("img");
+  // flagImg.classList.add("flag");
 
-  const renderCounrty = document.createElement("h1");
-  renderCounrty.classList.add("country");
+  // const renderCounrty = document.createElement("h1");
+  // renderCounrty.classList.add("country");
 
-  const renderPopulation = document.createElement("p");
-  renderPopulation.classList.add("population");
+  // const renderPopulation = document.createElement("p");
+  // renderPopulation.classList.add("population");
 
-  const renderRegion = document.createElement("p");
-  renderRegion.classList.add("region");
+  // const renderRegion = document.createElement("p");
+  // renderRegion.classList.add("region");
 
-  const renderCapital = document.createElement("p");
-  renderCapital.classList.add("capital");
+  // const renderCapital = document.createElement("p");
+  // renderCapital.classList.add("capital");
 
 
-  container.append(
-    flagImg,
-    renderCounrty,
-    renderPopulation,
-    renderRegion,
-    renderCapital
-  );
+  // container.append(
+  //   flagImg,
+  //   renderCounrty,
+  //   renderPopulation,
+  //   renderRegion,
+  //   renderCapital
+  // );
 
   return container;
 };
